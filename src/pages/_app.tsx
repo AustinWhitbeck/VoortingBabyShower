@@ -1,3 +1,4 @@
+import NavBar from '@/components/layout/NavBar'
 import '@/styles/globals.css'
 import { ChakraTheme } from '@/styles/theme'
 import { ChakraProvider, extendTheme } from '@chakra-ui/react'
@@ -9,7 +10,9 @@ const App = (props: AppProps) => {
   const theme = extendTheme(ChakraTheme);
   return (
     <ChakraProvider theme={theme}>
+      <NavBar>
       <Component {...pageProps} />
+      </NavBar>
     </ChakraProvider>
   )
 }

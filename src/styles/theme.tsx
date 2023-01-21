@@ -1,12 +1,15 @@
 
 
 export const ChakraTheme = {
+    colors: {
     primary: {
-        main: '#94B49F',
-        light: '#CEE5D0'
+        main: '#283618',
+        light: '#606c38'
     },
     secondary: {
-        main: '#ECB390',
-        light: '#FCF8E8',
+        main: '#bc6c25',
+        light: '#dda15e',
+        contrastText: '#fefae0'
     }
+ },
 }
