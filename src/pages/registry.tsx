@@ -1,8 +1,11 @@
-import React from 'react'
+import { Link } from "@chakra-ui/react"
 
 const Registry = () => {
   return (
-    <div>registry</div>
+    <>
+                                                <div>registry</div>
+    <Link href="https://www.babylist.com/baby-alaina-voorting" isExternal>Babylist Registry</Link>
+    </>
   )
 }
 
