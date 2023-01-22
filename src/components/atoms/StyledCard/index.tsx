@@ -11,11 +11,11 @@ export type StyledCardProps = {
 const StyledCard = (props: StyledCardProps) => {
 	const {title, text, image} = props;
 	return (
-		<Card w="400px">
+		<Card w="400px"  bgGradient='linear(to-t, primary.light, secondary.light)'>
 			<CardBody>
-				<Image src={image} alt={`image of ${title}`} height={200} width={200}/>
+				<Image src={image} alt={`image of ${title}`} height={100} width={300}/>
 				<Stack mt='6' spacing='3'>
-					<Heading size='md'>{title}</Heading>
+					<Heading size='md' color="secondary.contrastText">{title}</Heading>
 					<Text>
 						{text}
 					</Text>
