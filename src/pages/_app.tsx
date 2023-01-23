@@ -11,7 +11,7 @@ const App = (props: AppProps) => {
 	const theme = extendTheme(ChakraTheme);
 	return (
 		<ChakraProvider  theme={theme}>
-			<Box h="100vh" w="100%">
+			<Box h="100vh" w="100%"  backgroundColor="secondary.contrastText" id="App Wrapper">
 				<NavBar>
 					<Content>
 						<Component {...pageProps} />

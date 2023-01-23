@@ -7,7 +7,7 @@ type Props = {
 const Content = (props: Props) => {
 	const {children} = props;
 	return (
-		<Box   bgColor="secondary.contrastText" h="100%" p="50px 20px 0 20px">
+		<Box   p="50px 20px 0 20px">
 			{children}
 		</Box>
 	);

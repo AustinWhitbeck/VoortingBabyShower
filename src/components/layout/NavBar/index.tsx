@@ -1,4 +1,4 @@
-import {TabList, Tabs, Tab} from '@chakra-ui/react';
+import {TabList, Tabs, Tab, Box} from '@chakra-ui/react';
 import {useRouter} from 'next/router';
 import React, {useState} from 'react';
 
@@ -58,9 +58,9 @@ const NavBar = (props: Props) => {
 					</>
 				</TabList>
 			</Tabs>
-			<>
+			<Box id="children wrapper">
 				{children}
-			</>
+			</Box>
 		</>
 
 	);
